@@ -11,6 +11,7 @@ Repositorio de tareas, laboratorios y ejercicios de la materia **Arquitectura de
 | Carpeta | Descripción | Reporte |
 |---|---|---|
 | [`Tarea_Fibonacci`](./Tarea_Fibonacci) | Generador de la serie de Fibonacci en C; análisis de las 4 etapas de compilación con GCC (preprocesamiento, compilación, ensamblado y enlazado), identificación de tipos de archivo con `file`, y análisis de 5 instrucciones del código ensamblador generado. | `ReporteArqui01-fibonacci.docx` |
+| [`Ejercicio_CicloInstruccion`](./Ejercicio_CicloInstruccion) | Codificación a lenguaje máquina de un algoritmo aritmético para una arquitectura CPU imaginaria (5 opcodes, instrucción de 9 bits), y simulación etapa por etapa (Fetch, Decode, Execute, Memory/WB) de las 7 instrucciones resultantes. | `reporte_ciclo_instruccion.docx` |
 
 > Esta tabla se irá actualizando conforme se agreguen nuevas tareas al repositorio.
 
