@@ -13,6 +13,7 @@ Repositorio de tareas, laboratorios y ejercicios de la materia **Arquitectura de
 | [`Tarea_Fibonacci`](./Tarea_Fibonacci) | Generador de la serie de Fibonacci en C; análisis de las 4 etapas de compilación con GCC (preprocesamiento, compilación, ensamblado y enlazado), identificación de tipos de archivo con `file`, y análisis de 5 instrucciones del código ensamblador generado. |
 | [`reporte_ciclo_instruccion.pdf`](./reporte_ciclo_instruccion.pdf) | Reporte de ejercicio hecho en clase: codificación a lenguaje máquina de un algoritmo aritmético para una arquitectura CPU imaginaria (5 opcodes, instrucción de 9 bits), y simulación etapa por etapa (Fetch, Decode, Execute, Memory/WB) de las 7 instrucciones resultantes. |
 | [`ejemplo_01.S`](./ejemplo_01.S) / `ejemplo_01.elf` | Ejercicio en ensamblador AVR: bucle con instrucciones `ldi`, `mov` y `rjmp`, ensamblado y enlazado a un ejecutable ELF para microcontroladores AVR. |
+| [`Examen_P02_Semaforo`](./Examen_P02_Semaforo) | Examen parcial: semáforo de crucero con paso peatonal en el ATmega328P. Máquina de estados de 6 estados en ensamblador AVR, con la tabla de estados y los tiempos de 3 modos en memoria Flash (`lpm`), selección de modo y solicitud de cruce por DIP switch. Sigue la estructura de `proyecto/` del repo del curso (`src/`, `build/`, `release/`, `debug/`, `docs/`) e incluye documentación en formato IEEE, simulación en simavr y diagramas. |
 
 > Esta tabla se irá actualizando conforme se agreguen nuevas tareas al repositorio.
 
@@ -28,7 +29,7 @@ Algunos archivos en la raíz del repositorio fueron pruebas iniciales para famil
 
 - **Sistema:** Ubuntu (máquina virtual)
 - **Compilador:** GCC (`gcc`) para ejercicios en C, `avr-gcc`/binutils para ensamblador AVR
-- **Herramientas:** `gcc`, `file`, `nano`
+- **Herramientas:** `gcc`, `file`, `nano`, `avrdude` (programador USBasp), `simavr`
 
 ## Estructura típica de cada tarea
 
