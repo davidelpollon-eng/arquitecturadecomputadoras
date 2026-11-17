@@ -1,10 +1,10 @@
 # --- Configuración del Microcontrolador ---
 MCU     := atmega328p
-F_CPU   := 16000000UL
+F_CPU   := 8000000UL
 PROGRAMMER := usbasp
 
 # --- Archivo Fuente ---
-SRC     := src/main.S
+SRC     := src/main.c
 
 # --- Herramientas ---
 CC      := avr-gcc
